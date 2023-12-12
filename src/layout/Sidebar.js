@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "./Navbar";
-import CompanyLogo from "../assets/images/company-logo.png";
+import CompanyLogo from "../assets/images/logo.png";
 import LogoutIcon from "../assets/svg/Logout-icon.svg";
 import { dashboardToSettingsData, helpData } from "../data/IconData";
 
@@ -18,12 +18,14 @@ export default function Sidebar() {
         <div className="flex-col items-stretch min-h-full flex-nowrap px-0 relative">
           <NavLink to="/" className="mt-[26px] text-center w-full inline-block">
             <img
-              className="w-[201px] h-[32px] object-cover"
+              className="w-[50px] h-[30px] object-cover"
               src={CompanyLogo}
               alt="img"
             />
-          </NavLink>
+                <text style={{ paddingTop: "20px" }}><h3>Cryptoscapes</h3></text>
 
+          </NavLink>
+  
           <div className="flex flex-col">
             <ul className="flex-col min-w-full flex gap-4 list-none mt-[71px]">
               {dashboardToSettingsData.map(

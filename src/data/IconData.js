@@ -18,16 +18,16 @@ export const dashboardToSettingsData = [
     icon: DashIcon,
     inactiveIcon: DashIconInactive,
     link: "/",
-    text: "Dashboard",
+    text: "Overview",
   },
   {
     id: "markets",
     icon: MarketsIcon,
     inactiveIcon: MarketsIconInactive,
     link: "./markets",
-    text: "Markets",
+    text: "Trends",
   },
-  {
+  /*{
     id: "transaction",
     icon: TransactionIcon,
     inactiveIcon: TransactionIconInactive,
@@ -47,7 +47,7 @@ export const dashboardToSettingsData = [
     inactiveIcon: SettingsIcon,
     link: "./setting",
     text: "Setting",
-  },
+  },*/
 ];
 
 export const helpData = [
