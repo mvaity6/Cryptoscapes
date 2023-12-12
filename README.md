@@ -35,3 +35,4 @@ We welcome contributions from the community. If you'd like to contribute to this
 # Acknowledgments
 This project was inspired by the need for a robust cryptocurrency user dashboard.
 Feel free to modify and expand upon this README to provide more specific details about your project, installation instructions, usage examples, and any other relevant information. Make sure to include your project's licensing information as well.
+# Cryptoscapes
